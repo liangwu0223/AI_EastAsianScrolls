@@ -1,0 +1,15 @@
+{
+  "id" : "https://liangwu0223.github.io/AI_EastAsianScrolls/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in liangwu0223/AI_EastAsianScrolls project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://liangwu0223.github.io/AI_EastAsianScrolls/manifests/7140352_manifest_ClaudeFixed.json",
+    "label" : {
+      "en" : [ "Blank Manifest" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
