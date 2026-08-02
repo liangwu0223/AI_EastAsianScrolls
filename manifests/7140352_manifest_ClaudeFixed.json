@@ -1,0 +1,85 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://liangwu0223.github.io/AI_EastAsianScrolls/manifests/7140352_manifest_ClaudeFixed.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Blank Manifest" ]
+  },
+  "start" : {
+    "id" : "https://example.org/cs6j5eir40d-msb1onl3/canvas/1rgbwnko558-msb1p167",
+    "type" : "SpecificResource",
+    "source" : "https://example.org/cs6j5eir40d-msb1onl3/canvas/1rgbwnko558-msb1p167",
+    "selector" : {
+      "type" : "FragmentSelector",
+      "conformsTo" : "http://www.w3.org/TR/media-frags/",
+      "value" : "xywh=84611,0,3722,3722"
+    }
+  },
+  "items" : [ {
+    "id" : "https://example.org/cs6j5eir40d-msb1onl3/canvas/1rgbwnko558-msb1p167",
+    "type" : "Canvas",
+    "height" : 3722,
+    "width" : 88333,
+    "label" : {
+      "en" : [ "Zhao Yu's Pacification of the Barbarians South of Lu" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Alternative Title" ]
+      },
+      "value" : {
+        "en" : [ "趙遹瀘南平夷圖" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Culture" ]
+      },
+      "value" : {
+        "en" : [ "Chinese" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Artist" ]
+      },
+      "value" : {
+        "en" : [ "Unknown" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Museum" ]
+      },
+      "value" : {
+        "en" : [ "Nelson-Atkins Museum of Art" ]
+      }
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/7140352-pyramid%2f7140352_Pyramid.tif/full/2760,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 116,
+      "width" : 2760
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/cs6j5eir40d-msb1onl3/canvas/1rgbwnko558-msb1p167/annotation-page/hsacmj7ofzf-msb1p167",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/cs6j5eir40d-msb1onl3/annotation/2mjzwtpcxpj-msb1p166",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/cs6j5eir40d-msb1onl3/canvas/1rgbwnko558-msb1p167",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/7140352-pyramid%2f7140352_Pyramid.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3722,
+          "width" : 88333,
+          "service" : [ {
+            "id" : "https://iiif.archive.org/image/iiif/2/7140352-pyramid%2f7140352_Pyramid.tif",
+            "type" : "ImageService2",
+            "profile" : "level2"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
